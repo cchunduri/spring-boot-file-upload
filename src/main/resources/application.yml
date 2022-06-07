@@ -1,1 +1,14 @@
+server:
+  port: 9090
 
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/emp_db?useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
